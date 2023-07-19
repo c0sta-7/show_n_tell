@@ -9,4 +9,6 @@ col1, col2, col3 = st.columns([1,1,1])
 with col2:
     st.write('center')
 
-st.button('click me')
+with st.button('click me'):
+    st.ballons()
+
