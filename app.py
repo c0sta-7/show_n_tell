@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('Hello')
+st.title('Hello PEDD')
 my_slider = st.slider('slider', 0, 100)
 st.write(my_slider)
 
